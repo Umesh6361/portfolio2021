@@ -1,0 +1,123 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+:root{
+    
+} */
+body{
+    background-image:url(../assets/images/bg-body.jpg);
+}
+
+#profile{
+    background-image:url(../assets/images/header-shadow.png);
+    background:#cf455c;
+    background-repeat: repeat-x;
+    background-position:center bottom;
+    overflow:hidden;
+
+}
+.about{
+    float:left;
+    margin-top:30px;
+    width:490px;  
+    margin-left:20px;
+
+}
+.about .photo-inner{
+    float:left;
+    background:url(../assets/images/photo-inner.png) no-repeat;
+    width:214px;
+    height:214px;
+    padding:12px 0 0 19px;  
+}
+
+.about h1{
+    font-weight:900;
+    line-height:34px;
+    color:#fff;
+    margin-top:8px;
+    margin-left:-20px;
+}
+.about h3{
+    margin-top:5px;
+    font-size:18px;
+    line-height:18px;
+    color:#fff;
+    font-family:'oswald', sans-serif;
+}
+.about p{
+    font-size:14px;
+    margin-top:15px;
+    font-weight:400;
+    line-height:24px;
+    color:#fff;
+    font-family:'Roboto Condensed',sans-serif;
+}
+
+.personal-info{
+    float:left;
+    margin-top:30px;
+    width:310px;
+    min-height:230px;
+    margin-left:10px;
+    background:url(../assets/images/personal-info-sep.png) no-repeat left top;
+    padding:20px 0 19px 20px;
+      
+}
+.personal-info li{
+    line-height:12px;
+    font-size:14px;
+    float:left;
+    margin-bottom:10px;
+    overflow:hidden;
+    width:293px;
+}
+.personal-info li label{
+    color:#fff;
+    float:left;
+    padding:4px 7px;
+    font-weight:550;
+    border-radius:3px;
+    text-transform:uppercase;
+    font-family:'Roboto Condensed',sans-serif;
+}
+
+.personal-info li span{
+float:right;
+width:220px;
+padding-top:4px;
+font-weight:400;
+color:#fff;
+font-family:'Roboto Condensed', sans-serif;
+text-transform:uppercase;
+}
+
+header{
+    position:relative;
+    overflow:visible;
+}
+span.social-text{
+    position:absolute;
+    right:0;
+    color:#fff;
+    padding:2px 9px;
+    font-size:22px;
+    cursor: pointer;
+    top:10px;
+    border-radius:70px;
+}
+i.fa.fa-share{
+    color:#fff !important;
+}
+
+ul.socialicons{
+    opacity:0;
+    top:-7px;
+    position: relative;
+    transition:all ease 1s;
+    z-index:-1;
+    left:-7px;
+}
